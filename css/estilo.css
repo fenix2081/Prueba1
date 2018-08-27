@@ -1,0 +1,222 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #fafafa;
+}
+
+header{
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+.logo{
+    width: 80%;
+    text-decoration: none;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+ul li{
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+
+}
+
+.fondo{
+    width: 100vh;
+    height: 50vh;
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* inicio de segundo bloque */
+
+section{
+    padding: 10px;
+
+}
+
+.titulo1{
+    color: darkgray;
+    margin-top: 30px;
+}
+.titulo2{
+    color:dimgray;
+    margin-top: 30px;
+    font-size: 28px;
+}
+
+.informacion1{
+    color: #757575;
+    margin-top: 30px;
+}
+
+
+
+
+.articulos{
+    width: 100%;
+
+    margin-top: 50px;
+}
+
+.tarjeta{
+    width: 100%;
+    margin-top: 100px;
+}
+
+.tarjeta img{
+    width: 100%;
+}
+
+
+
+
+
+
+.conten-sing-up{
+    width: 100%;
+    height: 400px;
+    background-color: darkgray;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conten-sing-up h1{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 50px;
+}
+.conten-sing-up input{
+    width: 80vh;
+    margin-top: 50px;
+    font-size: 25px;
+    height: 40px;
+
+
+}
+
+
+@media (min-width: 720px) {
+
+
+    header{
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+
+    }
+
+    .conten-info{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .fondo{
+        width: 100%;
+        height: 80vh;
+        background-image: url(../img/fondo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .articulos{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .tarjeta{
+        width:48%;
+        margin-top: 100px;
+
+    }
+    .tarjeta img{
+        width: 100%;
+    }
+
+}
+
+
+
+.icons {
+  margin-top: 50px;
+  margin-left: 10px;
+
+}
+
+.color2 {
+  width: 100%;
+  height: 100px;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:#E0E0E0;
+}
+
+.ft-v {
+display: flex;
+justify-content: space-around;
+width: 100%;
+margin-top: 50px;
+}
+
+.pp {
+  font-family: 'ubuntu' sans-serif;
+  color: black;
+
+}
+
+.pp2 {
+  font-family: 'ubuntu' sans-serif;
+  color: black;
+
+}
+
+.pp3 {
+  font-family: 'ubuntu' sans-serif;
+  color: black;
+
+}
+
+.btn-1 {
+padding: 1em 3em;
+margin: 2em 43%;
+font-family: 'ubuntu' sans-serif;
+font-size: 95%;
+text-decoration:none;
+font-weight: 600;
+font-size: 18px;
+color: black;
+padding-top:15px;
+padding-bottom:15px;
+padding-left:40px;
+padding-right:40px;
+background-color: white;
+border-color: black;
+border-width: 1px;
+border-style: solid;
+
+
+
+}
